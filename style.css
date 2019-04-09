@@ -1,0 +1,147 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('http://wallstreetnation.com/wp-content/uploads/2016/06/wsnpic3-14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1{
+    color:aliceblue;
+  }
+  
+  .startButton{
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    font-size: 19px;
+  }
+  
+  .quiz-container {
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 75%;
+    margin-top: 15%;
+    margin-left: 25%;
+    background: rgba(0,0,0,.8);
+    color:aliceblue;
+    font-size: 25px;
+  }
+  
+  .answer-option{
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .answer-option:hover{
+    background-color: rgba(157, 103, 194, 0.397);
+  }
+  
+  
+  
+  .submit-button{
+    width: 50%;
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: aliceblue;
+  }
+  
+  .submit-button:hover{
+    background-color: rgb(0, 255, 255);
+  }
+  
+  .quiz-info{
+    display: none;
+    color: aliceblue;
+  }
+  
+  .current-question{
+    margin-left: 30px;
+    font-size: 25px; 
+  }
+  
+  .current-score{
+    float:right;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  
+  .startButton{
+    background: aliceblue;
+    text-transform: uppercase;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .startButton:hover{
+    background-color:rgb(0, 255, 255);
+  }
+  
+  .restartButton{
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+  }
+  
+  .restartButton:hover{
+    background-color:rgb(0, 255, 255);
+  }
+  
+  .nextButton{
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+  }
+  
+  .nextButton:hover{
+    background-color:rgb(0, 255, 255);
+  }
+  
+  
+  @media screen and (max-width: 768px){
+    .quiz-container{
+      margin-top: 35%;
+      font-size: 15px;
+      width: 50%;
+      height: 50%;
+    }
+  
+    .current-question{
+      
+      font-size: 10px;
+    }
+  
+    .current-score{
+      
+      font-size: 10px;
+    }
+  
+    h1{
+      font-size: 20px;
+    }
+  
+    h2{
+      font-size: 15px;
+    }
+  
+    @media screen and (max-width: 500px){
+      .quiz-container{
+        margin-top: 5%;
+      }
+    }
