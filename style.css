@@ -31,7 +31,7 @@ body, html {
     text-align: center;
     width: 50%;
     height: 75%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 25%;
     background: rgba(0,0,0,.8);
     color:aliceblue;
@@ -116,7 +116,7 @@ body, html {
   
   @media screen and (max-width: 768px){
     .quiz-container{
-      margin-top: 35%;
+      margin-top: 5%;
       font-size: 15px;
       width: 50%;
       height: 50%;
@@ -124,12 +124,12 @@ body, html {
   
     .current-question{
       
-      font-size: 10px;
+      font-size: 20px;
     }
   
     .current-score{
       
-      font-size: 10px;
+      font-size: 20px;
     }
   
     h1{
