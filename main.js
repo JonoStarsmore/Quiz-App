@@ -198,7 +198,9 @@ const STORE = [
       console.log('here');
       console.log('quiz restart', questionNumber)
       questionNumber = 0;
+      testScore = 0;
       console.log('quiz restart', questionNumber)
+      renderUpdatedQuizInfo()
       $('quiz-container').html(renderQuestion())
       $('.quiz-info').css('display','block');
     })
