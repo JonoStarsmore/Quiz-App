@@ -18,6 +18,10 @@ body, html {
   h1{
     color:aliceblue;
   }
+
+  .title{
+  text-align: center;
+}
   
   .startButton{
     margin-top: 25px;
@@ -31,7 +35,7 @@ body, html {
     text-align: center;
     width: 50%;
     height: 75%;
-    margin-top: 5%;
+    margin-top: 20vh;
     margin-left: 25%;
     background: rgba(0,0,0,.8);
     color:aliceblue;
@@ -116,7 +120,7 @@ body, html {
   
   @media screen and (max-width: 768px){
     .quiz-container{
-      margin-top: 5%;
+      margin-top: 20vh;
       font-size: 15px;
       width: 50%;
       height: 50%;
@@ -142,6 +146,6 @@ body, html {
   
     @media screen and (max-width: 500px){
       .quiz-container{
-        margin-top: 5%;
+        margin-top: 20vh;
       }
     }
