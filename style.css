@@ -36,7 +36,8 @@ body, html {
     width: 50%;
     height: 75%;
     margin-top: 20vh;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(0,0,0,.8);
     color:aliceblue;
     font-size: 25px;
